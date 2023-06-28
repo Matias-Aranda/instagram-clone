@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro";
+}
+
+/* header */
+
+header{
+    border-bottom: 1px solid #C6C6C6;
+    display: flex;
+    justify-content: space-between; 
+}
+
+#logo{
+    height: 33px;
+    margin: 15px;
+}
+
+#user-avatar{   
+   margin: 15px;   
+}
+
+/* post */
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+.avatar{
+    border-radius: 50%;  
+    height: 34px;
+}
+
+#post-header{
+    display: flex;
+    padding: 10px;
+}
+
+#post-avatar {
+    margin-right: 5px;
+    
+}
+
+#post-img{
+    width: 100%;
+    margin:0;
+    border: 1px solid #C6C6C6;
+}
+
+#location{
+    font-size: 12px;
+}
+
+.icon{
+    width: 23.3px;
+}
+
+.icon:hover{
+    opacity: 50%;
+}
+
+#comments{
+    display: flex;
+}
+
+#post-footer{
+    margin: 10px 8px;
+}
+
+#post-footer p{
+    margin-top: 10px
+}
+
+/* typography */
+
+p{
+    font-size: 13px;
+    margin: 2px;
+}
+
+.accent{
+    font-size: 13px;
+    font-weight: 700;
+}
